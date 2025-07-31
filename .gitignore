@@ -1,0 +1,58 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Node.js and npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Build and distribution folders
+dist/
+build/
+out/
+
+# Dependency directories
+bower_components/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+
+# Parcel cache (if using Parcel bundler)
+.parcel-cache/
+
+# Webpack cache (if using Webpack)
+.webpack/
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+
+# Local development server files
+public/
+*.local
