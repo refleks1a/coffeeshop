@@ -330,6 +330,21 @@ section {
 /* About Section */
 .about {
   background: var(--warm-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  background: url("images/coffee-splash.png") no-repeat center/contain;
+  opacity: 0.1;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .about-content {
@@ -337,6 +352,8 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 6rem;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .about-text h2 {
@@ -764,6 +781,10 @@ section {
     box-shadow: 0 10px 27px var(--shadow-light);
     padding: 2rem 0;
     border-top: 1px solid var(--medium-gray);
+  }
+
+  .nav-menu .nav-link {
+    padding-left: 2rem;
   }
 
   .nav-menu.active {
