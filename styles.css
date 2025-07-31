@@ -841,6 +841,10 @@ section {
     text-align: center;
   }
 
+  .social-links {
+    justify-content: center;
+  }
+
   .menu-content {
     padding: 1.5rem;
   }
